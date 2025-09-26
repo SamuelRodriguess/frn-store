@@ -1,1 +1,1 @@
-# promotions-store
+# FRN-store
