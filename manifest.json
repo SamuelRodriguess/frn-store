@@ -1,7 +1,7 @@
 {
   "vendor": "frncubo",
   "name": "store-theme",
-  "version": "6.2.0-beta",
+  "version": "6.2.0-beta.2",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -62,7 +62,8 @@
     "vtex.product-specifications": "1.x",
     "vtex.tab-layout": "0.x",
     "vtex.condition-layout": "2.x",
-    "vtex.css-handles": "1.x"
+    "vtex.css-handles": "1.x",
+    "frncubo.frn-components": "0.2.0-beta"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "3.x"
