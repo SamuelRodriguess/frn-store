@@ -2,15 +2,21 @@
   "store.product": {
     "children": [
       "flex-layout.row#product-breadcrumb",
+      "custom-promotions-shelf#pdp",
       "condition-layout.product#availability",
       "flex-layout.row#description",
       "flex-layout.row#specifications-title",
       "product-specification-group#table",
       "shelf.relatedProducts",
-      "custom-promotions-shelf",
       "product-reviews",
       "product-questions-and-answers"
     ]
+  },
+  "custom-promotions-shelf#pdp": {
+    "props": {
+      "id": "promo-pdp"
+    },
+    "blocks": ["product-summary.shelf"]
   },
   "flex-layout.row#specifications-title": {
     "children": ["rich-text#specifications"]
