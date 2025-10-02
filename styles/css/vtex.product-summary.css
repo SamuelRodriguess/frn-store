@@ -12,6 +12,12 @@
   opacity: 1;
 }
 
+.containerNormal :global(.vtex-add-to-cart-button-0-x-buttonText) {
+  white-space: nowrap;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
 .containerNormal
   :global(.vtex-store-components-3-x-container)
   :global(.vtex-flex-layout-0-x-flexRowContent) {
@@ -141,10 +147,7 @@
   .container {
     padding: 1.25rem;
     gap: 0.5rem;
-  }
-
-  .imageContainer {
-    padding: 1rem;
+    width: 13rem;
   }
 
   .image {
