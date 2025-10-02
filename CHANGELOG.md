@@ -9,6 +9,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [5.3.0] - 2025-10-02
+
+### Added
+- `custom-promotions-shelf` on the pdp page
+- Block product summary shelf promotions and global style
+
 ## [5.2.0] - 2024-09-05
 
 ### Changed
