@@ -2,9 +2,9 @@
   "store.product": {
     "children": [
       "flex-layout.row#product-breadcrumb",
-      "custom-promotions-shelf#pdp",
       "condition-layout.product#availability",
       "flex-layout.row#description",
+      "custom-promotions-shelf",
       "flex-layout.row#specifications-title",
       "product-specification-group#table",
       "shelf.relatedProducts",
@@ -12,11 +12,11 @@
       "product-questions-and-answers"
     ]
   },
-  "custom-promotions-shelf#pdp": {
+  "custom-promotions-shelf": {
     "props": {
       "id": "promo-pdp"
     },
-    "blocks": ["product-summary.shelf"]
+    "blocks": ["product-summary.shelf#promotions"]
   },
   "flex-layout.row#specifications-title": {
     "children": ["rich-text#specifications"]

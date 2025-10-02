@@ -1,4 +1,16 @@
 {
+   "product-summary.shelf#promotions": {
+    "children": [
+      "product-summary-image#shelf",
+      "product-summary-name",
+      "flex-layout.col#productRating",
+      "product-summary-space",
+      "product-list-price#summary",
+      "flex-layout.row#selling-price-savings",
+      "product-installments#summary",
+      "add-to-cart-button"
+    ]
+  },
   "product-summary.shelf": {
     "children": [
       "stack-layout#prodsum",
@@ -30,7 +42,7 @@
     "props": {
       "showBadge": false,
       "aspectRatio": "1:1",
-      "maxHeight": 300
+      "maxHeight": 320
     }
   },
 
