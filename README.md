@@ -1,10 +1,10 @@
 # FRN Store Theme
 
-FRN Cubo's VTEX IO store theme used to power frncubo.store. It extends the VTEX Store Framework with custom PDP blocks and FRN-specific experiences while keeping compatibility with standard VTEX apps.
+FRN VTEX IO store theme used to power frncubo.store. It extends the VTEX Store Framework with custom PDP blocks and FRN-specific experiences while keeping compatibility with standard VTEX apps.
 
 ## Prerequisites
 
-- Node.js LTS compatible with VTEX IO tooling
+- Node.js 20.x
 - Yarn 1.x
 - VTEX IO Toolbelt (`vtex` CLI) authenticated in the target account
 
