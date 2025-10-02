@@ -27,21 +27,6 @@
 .sellingPriceValue--summary {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #2E2E2E;
-}
-
-.savings--summary {
-  background: #8BC34A;
-  border-radius: 1000px;
-  align-items: center;
-  display: flex;
-
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  font-size: 0.875rem;
-  font-weight: 600;
-  vertical-align: baseline;
-  color: #FFFFFF;
 }
 
 .savings-discount--summary {
